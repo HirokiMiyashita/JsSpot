@@ -9,7 +9,6 @@ export const Bord = () => {
     setVal(e.target.value);
   };
 
-  console.log("ss");
   const handleCLick = () => {
     setInputTextBox([...inputTextBox, val]);
   };

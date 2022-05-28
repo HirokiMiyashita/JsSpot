@@ -8,7 +8,6 @@ export const Bord = () => {
   const handleChang = (e) => {
     setVal(e.target.value);
   };
-
   console.log("ss");
   const handleCLick = () => {
     setInputTextBox([...inputTextBox, val]);
